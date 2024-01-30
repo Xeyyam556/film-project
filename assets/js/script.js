@@ -26,7 +26,7 @@ function filmAXtar(filminAdi){
         time.innerHTML=`Tarix: ${filminMelumatlari.Released}`
         director.innerHTML=`Rejissor: ${filminMelumatlari.Director}`
         imdb.innerHTML=`IMdb: ${filminMelumatlari.imdbRating}`
-        about.innerHTML=`Film Haqqında:${filminMelumatlari.Actors}`
+        about.innerHTML=`Film Haqqında:${filminMelumatlari.Plot}`
     })
 
 }
